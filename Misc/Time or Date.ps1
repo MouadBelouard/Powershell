@@ -12,6 +12,4 @@ if ($userinput -like "date")
 Elseif ($userinput -like "time")
 { Write-Output "$Time"}
 Else
-{ Write-Output "Please enter either Time or Date!"}
-
-
+{ Write-Output "Please enter either Time or Date!!"}
