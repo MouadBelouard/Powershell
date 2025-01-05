@@ -1,4 +1,4 @@
-#Script to display either Time or Date based on the user's input
+#Script to display either Time or Date based on the user's input...
 
 $Date = Get-Date -Format "dddd MM/dd/yyyy"
 $Time = Get-Date -Format "HH:mm"
