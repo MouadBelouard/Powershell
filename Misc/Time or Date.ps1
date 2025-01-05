@@ -1,3 +1,5 @@
+#Script to display either Time or Date based on the user's input
+
 $Date = Get-Date -Format "dddd MM/dd/yyyy"
 $Time = Get-Date -Format "HH:mm"
 
@@ -10,6 +12,6 @@ if ($userinput -like "date")
 Elseif ($userinput -like "time")
 { Write-Output "$Time"}
 Else
-{ Write-Output "Please enter either time or date!"}
+{ Write-Output "Please enter either Time or Date!"}
 
 
