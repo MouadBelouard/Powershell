@@ -3,7 +3,7 @@
 $Date = Get-Date -Format "dddd MM/dd/yyyy"
 $Time = Get-Date -Format "HH:mm"
 
-Write-Output "Do you want to get Date or Time?"
+Write-Output "Do you want to get Date or Time? Chose one of the following options: Date or Time"
 
 $userinput = Read-Host
 
